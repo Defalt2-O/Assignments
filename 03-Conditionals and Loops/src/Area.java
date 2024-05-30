@@ -16,12 +16,14 @@ public class Area {
             System.out.println("8. Exit");
             System.out.print("Enter your choice of number: ");
             choice = sc.nextInt();
+            System.out.println();
 
             if(choice == 1) {
                 System.out.print("Enter radius of Circle: ");
                 float r = sc.nextFloat();
                 float area = 3.14f * r * r;
                 System.out.println("Area of the circle is: " + area);
+                System.out.println();
             }
             else if(choice == 2) {
                 System.out.print("Enter Base and Height of Triangle: ");
@@ -29,6 +31,7 @@ public class Area {
                 float height = sc.nextFloat();
                 float area = (base * height) / 2f;
                 System.out.println("Area of the Triangle is: " + area);
+                System.out.println();
             }
             else if(choice == 3) {
                 System.out.print("Enter Length and Width of Rectangle: ");
@@ -36,6 +39,7 @@ public class Area {
                 float width = sc.nextFloat();
                 float area = length * width;
                 System.out.println("Area of the Rectangle is: " + area);
+                System.out.println();
             }
             else if(choice == 4) {
                 System.out.print("Enter Base and Height of Isosceles Triangle: ");
@@ -43,6 +47,7 @@ public class Area {
                 float height = sc.nextFloat();
                 float area = base * height * 0.5f;
                 System.out.println("Area of the Isosceles Triangle is: " + area);
+                System.out.println();
             }
             else if(choice == 5) {
                 System.out.print("Enter Base and Height of Parallelogram: ");
@@ -50,6 +55,7 @@ public class Area {
                 float height = sc.nextFloat();
                 float area = base * height;
                 System.out.println("Area of the Parallelogram is: " + area);
+                System.out.println();
             }
             else if(choice == 6) {
                 System.out.print("Enter diagonal 1 and diagonal 2 of Rhombus: ");
@@ -57,16 +63,19 @@ public class Area {
                 float d2 = sc.nextFloat();
                 float area = (d1 * d2) / 2f;
                 System.out.println("Area of the Rhombus is: " + area);
+                System.out.println();
             }
             else if(choice == 7) {
                 System.out.print("Enter length of side of Equilateral Triangle: ");
                 float length = sc.nextFloat();
                 double area = (Math.sqrt(3.0) / 4) * length * length;
                 System.out.println("Area of the circle is: " + area);
+                System.out.println();
             } else if (choice == 8){
                 break;
             } else {
                 System.out.println("Invalid input. Please try again.");
+                System.out.println();
             }
         } while (true);
     }
