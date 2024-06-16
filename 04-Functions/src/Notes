@@ -1,5 +1,5 @@
 Switch Case:
-    For any problem that has a descending order, use a switch case.
+    For any problem that has a descending order, use a switch case (Grades.java).
         Eg. grading system from 100 to 40, grades A - F.
         Here we first check the highest grade. If that is not satisfied, then check lower grades.
         Switch helps here as we can divide by 10, convert it to a 1-10 range value, and then start switch
