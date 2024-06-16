@@ -26,5 +26,6 @@ public class MaxMin {
         } else {
             return Math.min(n2, n3);
         }
+        //Similarly, there exists a function Math.min(), which returns the minimum value of 2 args.
     }
 }
